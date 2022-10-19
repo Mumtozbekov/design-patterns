@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D5CF316B-6411-439A-B9BF-94D782AA6E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D5CF316B-6411-439A-B9BF-94D782AA6E12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{0F9C0C9A-ECB4-4CB5-9710-53891A42C541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{E058A43A-98D5-4F10-82A8-468540112F70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E058A43A-98D5-4F10-82A8-468540112F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E058A43A-98D5-4F10-82A8-468540112F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E058A43A-98D5-4F10-82A8-468540112F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E058A43A-98D5-4F10-82A8-468540112F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D5CF316B-6411-439A-B9BF-94D782AA6E12} = {0F9C0C9A-ECB4-4CB5-9710-53891A42C541}
 		{528E5F16-06DA-4B9F-A64C-A1602BCD99F4} = {0F9C0C9A-ECB4-4CB5-9710-53891A42C541}
+		{E058A43A-98D5-4F10-82A8-468540112F70} = {0F9C0C9A-ECB4-4CB5-9710-53891A42C541}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD9211C0-6CE9-4076-8C88-F277411A9144}
