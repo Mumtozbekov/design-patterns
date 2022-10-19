@@ -9,17 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{528E5F16-06DA-4B9F-A64C-A1602BCD99F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{E058A43A-98D5-4F10-82A8-468540112F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{E058A43A-98D5-4F10-82A8-468540112F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{B69733C4-7203-4483-8795-A2CB07CDE4A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{B69733C4-7203-4483-8795-A2CB07CDE4A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{5DF2C704-AC2C-44C5-B5B0-CE66F0A5EF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{5DF2C704-AC2C-44C5-B5B0-CE66F0A5EF4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{59BB5E22-B954-445A-98AE-EC958916DC75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{2C1CA738-25E4-4CA3-B44D-F2964BCD5485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{2C1CA738-25E4-4CA3-B44D-F2964BCD5485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{B7581B60-9CC6-4A8A-B7B9-D8EE71796683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{B7581B60-9CC6-4A8A-B7B9-D8EE71796683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{B7581B60-9CC6-4A8A-B7B9-D8EE71796683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7581B60-9CC6-4A8A-B7B9-D8EE71796683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7581B60-9CC6-4A8A-B7B9-D8EE71796683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{5DF2C704-AC2C-44C5-B5B0-CE66F0A5EF4A} = {0F9C0C9A-ECB4-4CB5-9710-53891A42C541}
 		{2C1CA738-25E4-4CA3-B44D-F2964BCD5485} = {59BB5E22-B954-445A-98AE-EC958916DC75}
 		{B7581B60-9CC6-4A8A-B7B9-D8EE71796683} = {59BB5E22-B954-445A-98AE-EC958916DC75}
+		{ECBC4C5B-86E5-488D-B1B0-E6768FFB8498} = {59BB5E22-B954-445A-98AE-EC958916DC75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD9211C0-6CE9-4076-8C88-F277411A9144}
